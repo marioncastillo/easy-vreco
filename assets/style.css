@@ -23,3 +23,8 @@ button{
 button:hover, button:focus{
 	outline:0;
 }
+
+#ubicacion{
+	border-radius: 3px;
+
+}

@@ -33,3 +33,19 @@ function initMap() {
 		alert("Tenemos un problema con encontrar tu ubicación");
 	}
 };
+
+
+      function calcRoute() {
+  var start = document.getElementById('origen').value;
+  var end = document.getElementById('destino').value;
+  var request = {
+    origin:origen,
+    destination:destino,
+    travelMode: 'DRIVING'
+  };
+  directionsService.route(request, function(response, status) {
+    if (status == 'OK') {
+      directionsDisplay.setDirections(response);
+    }
+  });
+}

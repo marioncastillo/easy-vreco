@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>EasyBike</title>
+	<title>Easy Vreco</title>
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -13,21 +13,41 @@
 	<section>
 	<div class="container">
 	<div class="row">
-	<div class="col-md-6 col-sm-6 col-xs-6">
-			<div class="col-md-6 col-sm-6 col-xs-6">
+	<div class="col-md-12 col-sm-6 col-xs-12">
+		<div class="col-md-6 col-sm-3 col-xs-12">
+
+			<div class="col-md-6 col-sm-6 col-xs-12">
 			<button id="encuentrame">Encuéntrame</button>
 			</div>
-			
-			<div class="col-md-6 col-sm-6 col-xs-6">
+
+			<div class="col-md-6 col-sm-6 col-xs-12" id="ubicacion">
+			<label for="usr">Origen</label>
+			<div>
+			<input type="text" id="origen" placeholder="Introduce una Ubicación">
+			</div>
+			</div>
+		</div>
+
+		<div class="col-md-6 col-sm-6 col-xs-12" id="ubicacion">	
+
+			<div class="col-md-6 col-sm-6 col-xs-12">
+			<label for="usr">Destino</label>
+			<div>
+			<input type="text" id="destino" placeholder="Introduce una Ubicación">
+			</div>
+			</div>
+
+			<div class="col-md-6 col-sm-6 col-xs-12">
 			<button id="ruta">Ruta</button>
 			</div>
-		
+
+		</div>
 	</div>
 	</div>
 	</div>
 
 		<div class="row">
-			<div class="col-md-12 col-sm-12" id="map">
+			<div class="col-md-12 col-sm-12 col-xs-12" id="map">
 				<!--Aqui va nuestro mapa-->
 			</div>
 		</div>
